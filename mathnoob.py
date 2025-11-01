@@ -1,9 +1,8 @@
 import math
-
-print(help(math))
+import vin
 
 e = math.e
-# math.sqrt()
+# math.sqrt()1
 # math.ceil()
 # math.floor()
 
@@ -64,7 +63,8 @@ def __main__():
         print("(4) To convert pounds to kilogram!")
         print("(5) To convert kilograms to pounds!")
         print("(6) For temperature conversions!")
-        choice = str(input("\tMake choice (q for quit): "))
+        print("(7) To check a VIN number!")
+        choice = str(input("\tMake choice (q for quit): ")).strip()
 
         if choice == "1":
             radiusfunc()
@@ -78,11 +78,12 @@ def __main__():
             kgstolbsfunc()
         elif choice == "6":
             tempconversionfunc()
-        elif choice == "q" or choice == "quit":
+        elif choice == "7":
+            vin.checkvin()
+        elif choice.lower() == "q" or choice == "quit":
             print("Thanks for stoppin' by!")
             break
         else:
             print("Invalid input! Enter the number that corresponds to your choice.")
 
 __main__()
-

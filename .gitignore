@@ -1,0 +1,5 @@
+# .gitignore (project root)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
