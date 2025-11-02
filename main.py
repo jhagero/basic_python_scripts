@@ -59,7 +59,7 @@ def madlib():
     while choice != "q":
         if choice == "quit":
             break
-        print("Give me some silly words!")
+        print("Give me some silly words!") 
         adjective1 = input("Enter an adjective (description): ")
         noun1 = input("Enter a noun (person, place, thing): ")
         adjective2 = input("Enter an adjective (description): ")

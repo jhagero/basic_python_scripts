@@ -2,6 +2,7 @@ import os
 import sys
 import time
 import random
+from typing import Callable, Any
 
 class bcolors:
     GREEN = '\033[92m'
