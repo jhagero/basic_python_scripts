@@ -52,5 +52,5 @@ def update_physics():
 do_that()
 do_this()
 risky()
-slow_sleep(1)       # -> slow_sleep(): ...
-fast_math(2, 10)    # -> fast_math(): ...
+slow_sleep(1)       # -> slow_sleep(): ~1000ms
+fast_math(2, 10)    # -> fast_math(): 0

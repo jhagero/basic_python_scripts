@@ -1,17 +1,12 @@
 # vin_decoder.py
 from vininfo import Vin
+import robco_terminal
+print = robco_terminal.fallout_print
 
-
-vin = Vin("WBA5A7C53FG143210")
-vin = Vin("00000000000000000")
-
-manu = vin.manufacturer
-modelyear = vin.years
-country = vin.country
-valid = vin.verify_checksum()
+#vin = Vin("WBA5A7C53FG143210") # Sample VIN
 
 def checkvin(vin = None):
-    if vin == None:
+    if vin == None or len(vin) < 17:
         vin = str(input("Enter the VIN#: "))
     vin = Vin(vin)
     if vin.verify_checksum():
