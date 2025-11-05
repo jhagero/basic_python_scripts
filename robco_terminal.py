@@ -9,7 +9,7 @@ class bcolors:
     YELLOW = '\033[93m'
     ENDC = '\033[0m'
 
-def fallout_print(text="", delay=0.01, end='\n', color=bcolors.GREEN, beep=True):
+def fallout_print(text="", delay=0.01, end='\n', color=bcolors.GREEN, beep=False):
     """
     Print text one character at a time, like a Fallout terminal.
     
@@ -33,9 +33,13 @@ def fallout_print(text="", delay=0.01, end='\n', color=bcolors.GREEN, beep=True)
 
 
 
+def terminal_loading_message():
+    fallout_print("WELCOME TO ROBCO INDUSTRIES (TM) TERMLINK", delay=0.03)
+    fallout_print("> INITIALIZING...", delay=0.02)
+    fallout_print("PASSWORD REQ><sequence interrupted!", delay=0.01)
+    fallout_print("ERR!:UNAUTH.!!?,<<D!KJ>><>ED#&#//", delay=0.01)
+    fallout_print(">>ACCESS GRANTED>>", delay=0.03)
 
-fallout_print("WELCOME TO ROBCO INDUSTRIES (TM) TERMLINK", delay=0.03)
-fallout_print("> INITIALIZING...", delay=0.02)
-fallout_print("PASSWORD REQ><sequence interrupted!", delay=0.01)
-fallout_print("ERR!:UNAUTH.!!?,<<D!KJ>><>ED#&#//", delay=0.01)
-fallout_print(">>ACCESS GRANTED>>", delay=0.03)
+def terminal_closing_message():
+    fallout_print("THANK YOU FOR USING ROBCO SYSTEMS!")
+    fallout_print("GOODBYE!")

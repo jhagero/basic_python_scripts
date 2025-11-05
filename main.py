@@ -80,7 +80,9 @@ def madlib():
         else:
             print("Uhh ok lets do another one anyway! :)")
 
-def __main__():
+if __name__ == '__main__':
+    robco_terminal.terminal_loading_message()
+
     choice = ""
     while choice != "quit":
         print()
@@ -112,9 +114,9 @@ def __main__():
         elif choice == "8":
             madlib()
         elif choice.lower() == "q" or choice == "quit":
-            print("Thanks for stoppin' by!")
+            robco_terminal.terminal_closing_message()
             break
         else:
             print("Invalid input! Enter the number that corresponds to your choice.")
 
-__main__()
+
