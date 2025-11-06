@@ -1,0 +1,12 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_PACK_COMPRESSED_BLOCK_DEPTH: Incomplete
+GL_PACK_COMPRESSED_BLOCK_HEIGHT: Incomplete
+GL_PACK_COMPRESSED_BLOCK_SIZE: Incomplete
+GL_PACK_COMPRESSED_BLOCK_WIDTH: Incomplete
+GL_UNPACK_COMPRESSED_BLOCK_DEPTH: Incomplete
+GL_UNPACK_COMPRESSED_BLOCK_HEIGHT: Incomplete
+GL_UNPACK_COMPRESSED_BLOCK_SIZE: Incomplete
+GL_UNPACK_COMPRESSED_BLOCK_WIDTH: Incomplete

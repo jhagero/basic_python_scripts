@@ -1,0 +1,10 @@
+from OpenGL.raw.GLES2._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_COMPRESSED_SRGB_ALPHA_PVRTC_2BPPV1_EXT: Incomplete
+GL_COMPRESSED_SRGB_ALPHA_PVRTC_2BPPV2_IMG: Incomplete
+GL_COMPRESSED_SRGB_ALPHA_PVRTC_4BPPV1_EXT: Incomplete
+GL_COMPRESSED_SRGB_ALPHA_PVRTC_4BPPV2_IMG: Incomplete
+GL_COMPRESSED_SRGB_PVRTC_2BPPV1_EXT: Incomplete
+GL_COMPRESSED_SRGB_PVRTC_4BPPV1_EXT: Incomplete

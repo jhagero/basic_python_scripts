@@ -1,0 +1,8 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_COMPRESSED_LUMINANCE_ALPHA_LATC2_EXT: Incomplete
+GL_COMPRESSED_LUMINANCE_LATC1_EXT: Incomplete
+GL_COMPRESSED_SIGNED_LUMINANCE_ALPHA_LATC2_EXT: Incomplete
+GL_COMPRESSED_SIGNED_LUMINANCE_LATC1_EXT: Incomplete

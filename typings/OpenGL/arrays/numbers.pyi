@@ -1,0 +1,26 @@
+from OpenGL._bytes import integer_types as integer_types, long as long
+from OpenGL.arrays import formathandler as formathandler
+from OpenGL.raw.GL.VERSION import GL_1_1 as GL_1_1
+from _typeshed import Incomplete
+
+REGISTRY_NAME: str
+n: Incomplete
+c: Incomplete
+
+class NumberHandler(formathandler.FormatHandler):
+    HANDLED_TYPES: Incomplete
+    def from_param(self, value, typeCode=None): ...
+    dataPointer = from_param
+    def zeros(self, dims, typeCode=None) -> None: ...
+    def ones(self, dims, typeCode=None) -> None: ...
+    def arrayToGLType(self, value): ...
+    def arraySize(self, value, typeCode=None): ...
+    def asArray(self, value, typeCode=None): ...
+    def unitSize(self, value, typeCode=None): ...
+    def registerEquivalent(self, typ, base) -> None: ...
+
+DEFAULT_TYPES: Incomplete
+TARGET_TYPES: Incomplete
+TARGET_TYPE_TUPLE: Incomplete
+CONSTANT_TO_TYPE: Incomplete
+BYTE_SIZES: Incomplete

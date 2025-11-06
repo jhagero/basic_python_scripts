@@ -1,0 +1,25 @@
+from OpenGL.raw.GLES2._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_NUM_SURFACE_COMPRESSION_FIXED_RATES_EXT: Incomplete
+GL_SURFACE_COMPRESSION_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_10BPC_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_11BPC_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_12BPC_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_1BPC_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_2BPC_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_3BPC_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_4BPC_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_5BPC_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_6BPC_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_7BPC_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_8BPC_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_9BPC_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_DEFAULT_EXT: Incomplete
+GL_SURFACE_COMPRESSION_FIXED_RATE_NONE_EXT: Incomplete
+
+@_f
+def glTexStorageAttribs2DEXT(target, levels, internalformat, width, height, attrib_list) -> None: ...
+@_f
+def glTexStorageAttribs3DEXT(target, levels, internalformat, width, height, depth, attrib_list) -> None: ...

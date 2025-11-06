@@ -1,0 +1,31 @@
+from OpenGL.raw.GL.EXT.separate_shader_objects import *
+from OpenGL import arrays as arrays, constant as constant, extensions as extensions, platform as platform, wrapper as wrapper
+from _typeshed import Incomplete
+
+def glInitSeparateShaderObjectsEXT(): ...
+
+glCreateShaderProgramvEXT: Incomplete
+glDeleteProgramPipelinesEXT: Incomplete
+glGenProgramPipelinesEXT: Incomplete
+glGetProgramPipelineInfoLogEXT: Incomplete
+glProgramUniform1fvEXT: Incomplete
+glProgramUniform1ivEXT: Incomplete
+glProgramUniform2fvEXT: Incomplete
+glProgramUniform2ivEXT: Incomplete
+glProgramUniform3fvEXT: Incomplete
+glProgramUniform3ivEXT: Incomplete
+glProgramUniform4fvEXT: Incomplete
+glProgramUniform4ivEXT: Incomplete
+glProgramUniformMatrix2fvEXT: Incomplete
+glProgramUniformMatrix3fvEXT: Incomplete
+glProgramUniformMatrix4fvEXT: Incomplete
+glProgramUniform1uivEXT: Incomplete
+glProgramUniform2uivEXT: Incomplete
+glProgramUniform3uivEXT: Incomplete
+glProgramUniform4uivEXT: Incomplete
+glProgramUniformMatrix2x3fvEXT: Incomplete
+glProgramUniformMatrix3x2fvEXT: Incomplete
+glProgramUniformMatrix2x4fvEXT: Incomplete
+glProgramUniformMatrix4x2fvEXT: Incomplete
+glProgramUniformMatrix3x4fvEXT: Incomplete
+glProgramUniformMatrix4x3fvEXT: Incomplete

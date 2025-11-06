@@ -8,6 +8,20 @@ e = math.e
 # math.ceil()
 # math.floor()
 
+def nope() -> None:
+    """
+    Aww shit, here we go again...
+    This function just doesn't do shit. 
+    It doesn't return shit, it doesn't call shit.
+    It doesn't do math, it doesn't do taxes.
+    It just is, and that's all it needs to do.
+    """
+    # puff puff
+    pass 
+
+nope()
+
+
 def radiusfunc():
     print()
     radius = float(input('Enter the radius of a circle: '))

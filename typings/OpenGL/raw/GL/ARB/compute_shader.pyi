@@ -1,0 +1,27 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_ATOMIC_COUNTER_BUFFER_REFERENCED_BY_COMPUTE_SHADER: Incomplete
+GL_COMPUTE_SHADER: Incomplete
+GL_COMPUTE_SHADER_BIT: Incomplete
+GL_COMPUTE_WORK_GROUP_SIZE: Incomplete
+GL_DISPATCH_INDIRECT_BUFFER: Incomplete
+GL_DISPATCH_INDIRECT_BUFFER_BINDING: Incomplete
+GL_MAX_COMBINED_COMPUTE_UNIFORM_COMPONENTS: Incomplete
+GL_MAX_COMPUTE_ATOMIC_COUNTERS: Incomplete
+GL_MAX_COMPUTE_ATOMIC_COUNTER_BUFFERS: Incomplete
+GL_MAX_COMPUTE_IMAGE_UNIFORMS: Incomplete
+GL_MAX_COMPUTE_SHARED_MEMORY_SIZE: Incomplete
+GL_MAX_COMPUTE_TEXTURE_IMAGE_UNITS: Incomplete
+GL_MAX_COMPUTE_UNIFORM_BLOCKS: Incomplete
+GL_MAX_COMPUTE_UNIFORM_COMPONENTS: Incomplete
+GL_MAX_COMPUTE_WORK_GROUP_COUNT: Incomplete
+GL_MAX_COMPUTE_WORK_GROUP_INVOCATIONS: Incomplete
+GL_MAX_COMPUTE_WORK_GROUP_SIZE: Incomplete
+GL_UNIFORM_BLOCK_REFERENCED_BY_COMPUTE_SHADER: Incomplete
+
+@_f
+def glDispatchCompute(num_groups_x, num_groups_y, num_groups_z) -> None: ...
+@_f
+def glDispatchComputeIndirect(indirect) -> None: ...

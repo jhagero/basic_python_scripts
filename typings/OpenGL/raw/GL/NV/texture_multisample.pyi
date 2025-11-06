@@ -1,0 +1,19 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_TEXTURE_COLOR_SAMPLES_NV: Incomplete
+GL_TEXTURE_COVERAGE_SAMPLES_NV: Incomplete
+
+@_f
+def glTexImage2DMultisampleCoverageNV(target, coverageSamples, colorSamples, internalFormat, width, height, fixedSampleLocations) -> None: ...
+@_f
+def glTexImage3DMultisampleCoverageNV(target, coverageSamples, colorSamples, internalFormat, width, height, depth, fixedSampleLocations) -> None: ...
+@_f
+def glTextureImage2DMultisampleCoverageNV(texture, target, coverageSamples, colorSamples, internalFormat, width, height, fixedSampleLocations) -> None: ...
+@_f
+def glTextureImage2DMultisampleNV(texture, target, samples, internalFormat, width, height, fixedSampleLocations) -> None: ...
+@_f
+def glTextureImage3DMultisampleCoverageNV(texture, target, coverageSamples, colorSamples, internalFormat, width, height, depth, fixedSampleLocations) -> None: ...
+@_f
+def glTextureImage3DMultisampleNV(texture, target, samples, internalFormat, width, height, depth, fixedSampleLocations) -> None: ...

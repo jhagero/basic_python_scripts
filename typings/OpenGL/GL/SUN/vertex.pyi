@@ -1,0 +1,26 @@
+from OpenGL.raw.GL.SUN.vertex import *
+from OpenGL import arrays as arrays, constant as constant, extensions as extensions, platform as platform, wrapper as wrapper
+from _typeshed import Incomplete
+
+def glInitVertexSUN(): ...
+
+glColor4ubVertex2fvSUN: Incomplete
+glColor4ubVertex3fvSUN: Incomplete
+glColor3fVertex3fvSUN: Incomplete
+glNormal3fVertex3fvSUN: Incomplete
+glColor4fNormal3fVertex3fvSUN: Incomplete
+glTexCoord2fVertex3fvSUN: Incomplete
+glTexCoord4fVertex4fvSUN: Incomplete
+glTexCoord2fColor4ubVertex3fvSUN: Incomplete
+glTexCoord2fColor3fVertex3fvSUN: Incomplete
+glTexCoord2fNormal3fVertex3fvSUN: Incomplete
+glTexCoord2fColor4fNormal3fVertex3fvSUN: Incomplete
+glTexCoord4fColor4fNormal3fVertex4fvSUN: Incomplete
+glReplacementCodeuiVertex3fvSUN: Incomplete
+glReplacementCodeuiColor4ubVertex3fvSUN: Incomplete
+glReplacementCodeuiColor3fVertex3fvSUN: Incomplete
+glReplacementCodeuiNormal3fVertex3fvSUN: Incomplete
+glReplacementCodeuiColor4fNormal3fVertex3fvSUN: Incomplete
+glReplacementCodeuiTexCoord2fVertex3fvSUN: Incomplete
+glReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN: Incomplete
+glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN: Incomplete

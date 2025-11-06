@@ -1,0 +1,26 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_CURRENT_QUERY_ARB: Incomplete
+GL_QUERY_COUNTER_BITS_ARB: Incomplete
+GL_QUERY_RESULT_ARB: Incomplete
+GL_QUERY_RESULT_AVAILABLE_ARB: Incomplete
+GL_SAMPLES_PASSED_ARB: Incomplete
+
+@_f
+def glBeginQueryARB(target, id) -> None: ...
+@_f
+def glDeleteQueriesARB(n, ids) -> None: ...
+@_f
+def glEndQueryARB(target) -> None: ...
+@_f
+def glGenQueriesARB(n, ids) -> None: ...
+@_f
+def glGetQueryObjectivARB(id, pname, params) -> None: ...
+@_f
+def glGetQueryObjectuivARB(id, pname, params) -> None: ...
+@_f
+def glGetQueryivARB(target, pname, params) -> None: ...
+@_f
+def glIsQueryARB(id) -> None: ...

@@ -1,0 +1,6 @@
+from OpenGL import MODULE_ANNOTATIONS as MODULE_ANNOTATIONS
+from OpenGL.latebind import Curry as Curry
+
+class _LazyWrapper(Curry): ...
+
+def lazy(baseFunction): ...

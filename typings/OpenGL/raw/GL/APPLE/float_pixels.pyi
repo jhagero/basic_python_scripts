@@ -1,0 +1,18 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_ALPHA_FLOAT16_APPLE: Incomplete
+GL_ALPHA_FLOAT32_APPLE: Incomplete
+GL_COLOR_FLOAT_APPLE: Incomplete
+GL_HALF_APPLE: Incomplete
+GL_INTENSITY_FLOAT16_APPLE: Incomplete
+GL_INTENSITY_FLOAT32_APPLE: Incomplete
+GL_LUMINANCE_ALPHA_FLOAT16_APPLE: Incomplete
+GL_LUMINANCE_ALPHA_FLOAT32_APPLE: Incomplete
+GL_LUMINANCE_FLOAT16_APPLE: Incomplete
+GL_LUMINANCE_FLOAT32_APPLE: Incomplete
+GL_RGBA_FLOAT16_APPLE: Incomplete
+GL_RGBA_FLOAT32_APPLE: Incomplete
+GL_RGB_FLOAT16_APPLE: Incomplete
+GL_RGB_FLOAT32_APPLE: Incomplete

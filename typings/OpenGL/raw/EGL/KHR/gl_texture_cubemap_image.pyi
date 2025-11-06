@@ -1,0 +1,10 @@
+from OpenGL.raw.EGL._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+EGL_GL_TEXTURE_CUBE_MAP_NEGATIVE_X_KHR: Incomplete
+EGL_GL_TEXTURE_CUBE_MAP_NEGATIVE_Y_KHR: Incomplete
+EGL_GL_TEXTURE_CUBE_MAP_NEGATIVE_Z_KHR: Incomplete
+EGL_GL_TEXTURE_CUBE_MAP_POSITIVE_X_KHR: Incomplete
+EGL_GL_TEXTURE_CUBE_MAP_POSITIVE_Y_KHR: Incomplete
+EGL_GL_TEXTURE_CUBE_MAP_POSITIVE_Z_KHR: Incomplete

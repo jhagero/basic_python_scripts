@@ -1,0 +1,19 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_INSTRUMENT_BUFFER_POINTER_SGIX: Incomplete
+GL_INSTRUMENT_MEASUREMENTS_SGIX: Incomplete
+
+@_f
+def glGetInstrumentsSGIX() -> None: ...
+@_f
+def glInstrumentsBufferSGIX(size, buffer) -> None: ...
+@_f
+def glPollInstrumentsSGIX(marker_p) -> None: ...
+@_f
+def glReadInstrumentsSGIX(marker) -> None: ...
+@_f
+def glStartInstrumentsSGIX() -> None: ...
+@_f
+def glStopInstrumentsSGIX(marker) -> None: ...

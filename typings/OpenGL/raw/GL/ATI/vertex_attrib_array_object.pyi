@@ -1,0 +1,9 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+
+@_f
+def glGetVertexAttribArrayObjectfvATI(index, pname, params) -> None: ...
+@_f
+def glGetVertexAttribArrayObjectivATI(index, pname, params) -> None: ...
+@_f
+def glVertexAttribArrayObjectATI(index, size, type, normalized, stride, buffer, offset) -> None: ...

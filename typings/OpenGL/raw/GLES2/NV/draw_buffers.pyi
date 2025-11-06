@@ -1,0 +1,40 @@
+from OpenGL.raw.GLES2._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_COLOR_ATTACHMENT0_NV: Incomplete
+GL_COLOR_ATTACHMENT10_NV: Incomplete
+GL_COLOR_ATTACHMENT11_NV: Incomplete
+GL_COLOR_ATTACHMENT12_NV: Incomplete
+GL_COLOR_ATTACHMENT13_NV: Incomplete
+GL_COLOR_ATTACHMENT14_NV: Incomplete
+GL_COLOR_ATTACHMENT15_NV: Incomplete
+GL_COLOR_ATTACHMENT1_NV: Incomplete
+GL_COLOR_ATTACHMENT2_NV: Incomplete
+GL_COLOR_ATTACHMENT3_NV: Incomplete
+GL_COLOR_ATTACHMENT4_NV: Incomplete
+GL_COLOR_ATTACHMENT5_NV: Incomplete
+GL_COLOR_ATTACHMENT6_NV: Incomplete
+GL_COLOR_ATTACHMENT7_NV: Incomplete
+GL_COLOR_ATTACHMENT8_NV: Incomplete
+GL_COLOR_ATTACHMENT9_NV: Incomplete
+GL_DRAW_BUFFER0_NV: Incomplete
+GL_DRAW_BUFFER10_NV: Incomplete
+GL_DRAW_BUFFER11_NV: Incomplete
+GL_DRAW_BUFFER12_NV: Incomplete
+GL_DRAW_BUFFER13_NV: Incomplete
+GL_DRAW_BUFFER14_NV: Incomplete
+GL_DRAW_BUFFER15_NV: Incomplete
+GL_DRAW_BUFFER1_NV: Incomplete
+GL_DRAW_BUFFER2_NV: Incomplete
+GL_DRAW_BUFFER3_NV: Incomplete
+GL_DRAW_BUFFER4_NV: Incomplete
+GL_DRAW_BUFFER5_NV: Incomplete
+GL_DRAW_BUFFER6_NV: Incomplete
+GL_DRAW_BUFFER7_NV: Incomplete
+GL_DRAW_BUFFER8_NV: Incomplete
+GL_DRAW_BUFFER9_NV: Incomplete
+GL_MAX_DRAW_BUFFERS_NV: Incomplete
+
+@_f
+def glDrawBuffersNV(n, bufs) -> None: ...

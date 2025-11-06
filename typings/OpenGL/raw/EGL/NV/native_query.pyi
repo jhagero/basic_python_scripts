@@ -1,0 +1,9 @@
+from OpenGL.raw.EGL._types import *
+from OpenGL import arrays as arrays
+
+@_f
+def eglQueryNativeDisplayNV(dpy, display_id) -> None: ...
+@_f
+def eglQueryNativePixmapNV(dpy, surf, pixmap) -> None: ...
+@_f
+def eglQueryNativeWindowNV(dpy, surf, window) -> None: ...

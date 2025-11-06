@@ -1,0 +1,9 @@
+from OpenGL.raw.EGL._types import *
+from OpenGL import arrays as arrays
+
+@_f
+def eglCreatePlatformPixmapSurfaceEXT(dpy, config, native_pixmap, attrib_list) -> None: ...
+@_f
+def eglCreatePlatformWindowSurfaceEXT(dpy, config, native_window, attrib_list) -> None: ...
+@_f
+def eglGetPlatformDisplayEXT(platform, native_display, attrib_list) -> None: ...

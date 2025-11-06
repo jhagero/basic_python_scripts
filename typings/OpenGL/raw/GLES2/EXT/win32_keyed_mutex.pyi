@@ -1,0 +1,7 @@
+from OpenGL.raw.GLES2._types import *
+from OpenGL import arrays as arrays
+
+@_f
+def glAcquireKeyedMutexWin32EXT(memory, key, timeout) -> None: ...
+@_f
+def glReleaseKeyedMutexWin32EXT(memory, key) -> None: ...

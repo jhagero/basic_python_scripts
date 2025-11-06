@@ -1,0 +1,9 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_MAX_PROGRAM_PATCH_ATTRIBS_NV: Incomplete
+GL_TESS_CONTROL_PROGRAM_NV: Incomplete
+GL_TESS_CONTROL_PROGRAM_PARAMETER_BUFFER_NV: Incomplete
+GL_TESS_EVALUATION_PROGRAM_NV: Incomplete
+GL_TESS_EVALUATION_PROGRAM_PARAMETER_BUFFER_NV: Incomplete

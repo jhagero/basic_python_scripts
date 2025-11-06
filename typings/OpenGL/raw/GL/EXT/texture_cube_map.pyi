@@ -1,0 +1,16 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_MAX_CUBE_MAP_TEXTURE_SIZE_EXT: Incomplete
+GL_NORMAL_MAP_EXT: Incomplete
+GL_PROXY_TEXTURE_CUBE_MAP_EXT: Incomplete
+GL_REFLECTION_MAP_EXT: Incomplete
+GL_TEXTURE_BINDING_CUBE_MAP_EXT: Incomplete
+GL_TEXTURE_CUBE_MAP_EXT: Incomplete
+GL_TEXTURE_CUBE_MAP_NEGATIVE_X_EXT: Incomplete
+GL_TEXTURE_CUBE_MAP_NEGATIVE_Y_EXT: Incomplete
+GL_TEXTURE_CUBE_MAP_NEGATIVE_Z_EXT: Incomplete
+GL_TEXTURE_CUBE_MAP_POSITIVE_X_EXT: Incomplete
+GL_TEXTURE_CUBE_MAP_POSITIVE_Y_EXT: Incomplete
+GL_TEXTURE_CUBE_MAP_POSITIVE_Z_EXT: Incomplete

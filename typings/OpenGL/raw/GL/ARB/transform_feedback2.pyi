@@ -1,0 +1,23 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_TRANSFORM_FEEDBACK: Incomplete
+GL_TRANSFORM_FEEDBACK_BINDING: Incomplete
+GL_TRANSFORM_FEEDBACK_BUFFER_ACTIVE: Incomplete
+GL_TRANSFORM_FEEDBACK_BUFFER_PAUSED: Incomplete
+
+@_f
+def glBindTransformFeedback(target, id) -> None: ...
+@_f
+def glDeleteTransformFeedbacks(n, ids) -> None: ...
+@_f
+def glDrawTransformFeedback(mode, id) -> None: ...
+@_f
+def glGenTransformFeedbacks(n, ids) -> None: ...
+@_f
+def glIsTransformFeedback(id) -> None: ...
+@_f
+def glPauseTransformFeedback() -> None: ...
+@_f
+def glResumeTransformFeedback() -> None: ...

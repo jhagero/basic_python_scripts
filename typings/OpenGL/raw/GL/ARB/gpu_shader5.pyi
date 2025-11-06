@@ -1,0 +1,10 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_FRAGMENT_INTERPOLATION_OFFSET_BITS: Incomplete
+GL_GEOMETRY_SHADER_INVOCATIONS: Incomplete
+GL_MAX_FRAGMENT_INTERPOLATION_OFFSET: Incomplete
+GL_MAX_GEOMETRY_SHADER_INVOCATIONS: Incomplete
+GL_MAX_VERTEX_STREAMS: Incomplete
+GL_MIN_FRAGMENT_INTERPOLATION_OFFSET: Incomplete

@@ -1,0 +1,9 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+
+@_f
+def glDrawArraysInstancedBaseInstance(mode, first, count, instancecount, baseinstance) -> None: ...
+@_f
+def glDrawElementsInstancedBaseInstance(mode, count, type, indices, instancecount, baseinstance) -> None: ...
+@_f
+def glDrawElementsInstancedBaseVertexBaseInstance(mode, count, type, indices, instancecount, basevertex, baseinstance) -> None: ...

@@ -1,0 +1,12 @@
+from OpenGL.raw.GL._types import *
+from OpenGL import arrays as arrays
+from _typeshed import Incomplete
+
+GL_PIXEL_TILE_BEST_ALIGNMENT_SGIX: Incomplete
+GL_PIXEL_TILE_CACHE_INCREMENT_SGIX: Incomplete
+GL_PIXEL_TILE_CACHE_SIZE_SGIX: Incomplete
+GL_PIXEL_TILE_GRID_DEPTH_SGIX: Incomplete
+GL_PIXEL_TILE_GRID_HEIGHT_SGIX: Incomplete
+GL_PIXEL_TILE_GRID_WIDTH_SGIX: Incomplete
+GL_PIXEL_TILE_HEIGHT_SGIX: Incomplete
+GL_PIXEL_TILE_WIDTH_SGIX: Incomplete
