@@ -1,9 +1,0 @@
-from OpenGL.raw.GL._types import *
-from OpenGL import arrays as arrays
-
-@_f
-def glDeleteQueryResourceTagNV(n, tagIds) -> None: ...
-@_f
-def glGenQueryResourceTagNV(n, tagIds) -> None: ...
-@_f
-def glQueryResourceTagNV(tagId, tagString) -> None: ...

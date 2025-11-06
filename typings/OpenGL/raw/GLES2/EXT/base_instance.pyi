@@ -1,9 +1,0 @@
-from OpenGL.raw.GLES2._types import *
-from OpenGL import arrays as arrays
-
-@_f
-def glDrawArraysInstancedBaseInstanceEXT(mode, first, count, instancecount, baseinstance) -> None: ...
-@_f
-def glDrawElementsInstancedBaseInstanceEXT(mode, count, type, indices, instancecount, baseinstance) -> None: ...
-@_f
-def glDrawElementsInstancedBaseVertexBaseInstanceEXT(mode, count, type, indices, instancecount, basevertex, baseinstance) -> None: ...

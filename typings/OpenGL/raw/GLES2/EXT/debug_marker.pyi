@@ -1,9 +1,0 @@
-from OpenGL.raw.GLES2._types import *
-from OpenGL import arrays as arrays
-
-@_f
-def glInsertEventMarkerEXT(length, marker) -> None: ...
-@_f
-def glPopGroupMarkerEXT() -> None: ...
-@_f
-def glPushGroupMarkerEXT(length, marker) -> None: ...

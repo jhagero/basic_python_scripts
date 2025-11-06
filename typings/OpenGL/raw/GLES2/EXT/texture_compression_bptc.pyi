@@ -1,8 +1,0 @@
-from OpenGL.raw.GLES2._types import *
-from OpenGL import arrays as arrays
-from _typeshed import Incomplete
-
-GL_COMPRESSED_RGBA_BPTC_UNORM_EXT: Incomplete
-GL_COMPRESSED_RGB_BPTC_SIGNED_FLOAT_EXT: Incomplete
-GL_COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT: Incomplete
-GL_COMPRESSED_SRGB_ALPHA_BPTC_UNORM_EXT: Incomplete

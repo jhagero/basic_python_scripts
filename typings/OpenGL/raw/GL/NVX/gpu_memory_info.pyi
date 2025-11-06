@@ -1,9 +1,0 @@
-from OpenGL.raw.GL._types import *
-from OpenGL import arrays as arrays
-from _typeshed import Incomplete
-
-GL_GPU_MEMORY_INFO_CURRENT_AVAILABLE_VIDMEM_NVX: Incomplete
-GL_GPU_MEMORY_INFO_DEDICATED_VIDMEM_NVX: Incomplete
-GL_GPU_MEMORY_INFO_EVICTED_MEMORY_NVX: Incomplete
-GL_GPU_MEMORY_INFO_EVICTION_COUNT_NVX: Incomplete
-GL_GPU_MEMORY_INFO_TOTAL_AVAILABLE_MEMORY_NVX: Incomplete

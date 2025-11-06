@@ -1,9 +1,0 @@
-from OpenGL.raw.GLX._types import *
-from OpenGL import arrays as arrays
-from _typeshed import Incomplete
-
-GLX_CONTEXT_MULTIGPU_ATTRIB_AFR_NV: Incomplete
-GLX_CONTEXT_MULTIGPU_ATTRIB_MULTICAST_NV: Incomplete
-GLX_CONTEXT_MULTIGPU_ATTRIB_MULTI_DISPLAY_MULTICAST_NV: Incomplete
-GLX_CONTEXT_MULTIGPU_ATTRIB_NV: Incomplete
-GLX_CONTEXT_MULTIGPU_ATTRIB_SINGLE_NV: Incomplete
